@@ -23,7 +23,7 @@ from scipy.optimize import curve_fit
 #import matplotlib.gridspec as gridspec
 
 ############################### reading csv file #############################
-df=pd.read_csv('full_data_o.csv')
+df=pd.read_csv('full_data.csv')
 
 ###################### defining columns as array variables ###################
 date=df.date
